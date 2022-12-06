@@ -6,5 +6,5 @@ def test_add():
     assert add(1000000000000000000, 2) == 1000000000000000002
 
 def test_multiply():
-    assert multiply(2, 4) == 8
+    assert multiply(2 * 4) == 8
     assert multiply(3 * 4) == 12
